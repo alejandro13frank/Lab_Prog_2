@@ -1,0 +1,7 @@
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\obj\Debug\Ejercicio8.csproj.CoreCompileInputs.cache
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\bin\Debug\Ejercicio7.exe.config
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\bin\Debug\Ejercicio7.exe
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\bin\Debug\Ejercicio7.pdb
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\obj\Debug\Ejercicio7.exe
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\obj\Debug\Ejercicio7.pdb
+D:\alejandro frank\Lab_Prog_2\Programa1\Ejercicio7\obj\Debug\Ejercicio8.csprojAssemblyReference.cache
