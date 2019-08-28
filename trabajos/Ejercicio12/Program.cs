@@ -10,10 +10,21 @@ namespace Ejercicio12
     {
         static void Main(string[] args)
         {
+            int numero;
+            int suma = 0;
+            char c='c';
             do
             {
-
-            }while(ValidarRespuesta.ValidarS_N())
+                Console.Write("Ingrese numero a sumar: ");
+                if (int.TryParse(Console.ReadLine(), out numero))
+                {
+                    suma += numero;
+                }
+                Console.Write("desea seguir ingresando?S/N: ");
+                char.TryParse(Console.ReadLine(),out c);
+            } while (ValidarRespuesta.ValidarS_N(c));
+            Console.WriteLine("la suma total es: {0}", suma);
+            Console.ReadKey();
         }
     }
 }
