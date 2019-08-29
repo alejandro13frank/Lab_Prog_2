@@ -10,7 +10,7 @@ namespace Ejercicio17
     {
         static void Main(string[] args)
         {
-            Boligrafo boliAzul = new Boligrafo(ConsoleColor.Blue,100);
+            Boligrafo boliAzul = new Boligrafo(ConsoleColor.Blue,8);
             Boligrafo boliRojo = new Boligrafo(ConsoleColor.Red,50);
             string dibujo="";
             boliAzul.Pintar(10, out dibujo);
