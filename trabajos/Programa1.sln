@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometria", "Geometria\Geom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaGeometria", "PruebaGeometria\PruebaGeometria.csproj", "{9D4D9A4E-D525-434B-AC39-C883181E92F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio19", "Ejercicio19\Ejercicio19.csproj", "{B3BCC4B5-9893-420E-849B-5E71832E725B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{9D4D9A4E-D525-434B-AC39-C883181E92F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D4D9A4E-D525-434B-AC39-C883181E92F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D4D9A4E-D525-434B-AC39-C883181E92F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BCC4B5-9893-420E-849B-5E71832E725B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BCC4B5-9893-420E-849B-5E71832E725B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BCC4B5-9893-420E-849B-5E71832E725B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BCC4B5-9893-420E-849B-5E71832E725B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
