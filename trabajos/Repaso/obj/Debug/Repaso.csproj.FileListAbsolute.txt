@@ -1,0 +1,7 @@
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\bin\Debug\Repaso.exe.config
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\bin\Debug\Repaso.exe
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\bin\Debug\Repaso.pdb
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\obj\Debug\Repaso.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\obj\Debug\Repaso.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\obj\Debug\Repaso.exe
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Repaso\obj\Debug\Repaso.pdb
