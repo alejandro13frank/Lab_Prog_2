@@ -37,7 +37,7 @@ namespace Repaso
                 return null;
             }
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Marca: {0}\bPrecio: {1} CodigoDeBarra: {2}\n", p.GetMarca(), (p.GetPrecio()).ToString(), (string)p);
+            sb.AppendFormat("Marca: {0}\tPrecio: {1} \tCodigoDeBarra: {2}\n", p.GetMarca(), (p.GetPrecio()).ToString(), (string)p);
             return sb.ToString();
         }
         public static bool operator ==(Producto a,Producto b)

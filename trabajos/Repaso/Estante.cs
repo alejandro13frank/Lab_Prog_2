@@ -55,17 +55,18 @@ namespace Repaso
             bool retorno = false;
             int i= 0;
             foreach (Producto p in e.productos)
-            {
-                i++;
+            { 
                 if (p is null)
                 {
                     break;
                 }
+                i++;
             }
-            if (i < e.productos.Length && e!=pNuevo)
+            bool v = e != pNuevo;
+            if (i < e.productos.Length && v)
             {
                 retorno = true;
-                e.productos[i-1] = pNuevo;
+                e.productos[i] = pNuevo;
             }
             return retorno;
         }
@@ -74,12 +75,13 @@ namespace Repaso
             int i = 0;
             foreach (Producto p in e.productos)
             {
-                i++;
+                
                 if (p==pNuevo)
                 {
-                    e.productos[i-1] = null;
+                    e.productos[i] = null;
                     break;
                 }
+                i++;
             }
             return e;
         }
