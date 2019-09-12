@@ -1,0 +1,13 @@
+D:\VisualStudio\FrmMoneda\FrmMoneda\bin\Debug\FrmMoneda.exe.config
+D:\VisualStudio\FrmMoneda\FrmMoneda\bin\Debug\FrmMoneda.exe
+D:\VisualStudio\FrmMoneda\FrmMoneda\bin\Debug\FrmMoneda.pdb
+D:\VisualStudio\FrmMoneda\FrmMoneda\bin\Debug\Moneda.dll
+D:\VisualStudio\FrmMoneda\FrmMoneda\bin\Debug\Moneda.pdb
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.csprojAssemblyReference.cache
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.Form1.resources
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.Properties.Resources.resources
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.csproj.GenerateResource.cache
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.csproj.CoreCompileInputs.cache
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.csproj.CopyComplete
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.exe
+D:\VisualStudio\FrmMoneda\FrmMoneda\obj\Debug\FrmMoneda.pdb

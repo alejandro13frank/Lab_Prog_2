@@ -1,0 +1,10 @@
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.Conversor.resources
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.Properties.Resources.resources
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.csproj.GenerateResource.cache
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\bin\Debug\Conversor.exe.config
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\bin\Debug\Conversor.exe
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\bin\Debug\Conversor.pdb
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.exe
+D:\Alejandro Frank\Lab_Prog_2\trabajos\Conversor\obj\Debug\Conversor.pdb

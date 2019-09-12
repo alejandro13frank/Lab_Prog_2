@@ -1,7 +1,0 @@
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\bin\Debug\Geometria.exe.config
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\bin\Debug\Geometria.exe
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\bin\Debug\Geometria.pdb
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\obj\Debug\Geometria.csprojAssemblyReference.cache
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\obj\Debug\Geometria.csproj.CoreCompileInputs.cache
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\obj\Debug\Geometria.exe
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Geometria\obj\Debug\Geometria.pdb

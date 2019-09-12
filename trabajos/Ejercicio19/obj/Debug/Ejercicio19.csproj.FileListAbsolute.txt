@@ -1,7 +1,0 @@
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\bin\Debug\Ejercicio19.exe.config
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\bin\Debug\Ejercicio19.exe
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\bin\Debug\Ejercicio19.pdb
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\obj\Debug\Ejercicio19.csprojAssemblyReference.cache
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\obj\Debug\Ejercicio19.csproj.CoreCompileInputs.cache
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\obj\Debug\Ejercicio19.exe
-D:\Alejandro Frank\Lab_Prog_2\trabajos\Ejercicio19\obj\Debug\Ejercicio19.pdb
