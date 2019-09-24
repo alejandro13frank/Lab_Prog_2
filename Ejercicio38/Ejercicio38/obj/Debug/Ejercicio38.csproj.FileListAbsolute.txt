@@ -1,0 +1,7 @@
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\bin\Debug\Ejercicio38.exe.config
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\bin\Debug\Ejercicio38.exe
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\bin\Debug\Ejercicio38.pdb
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\obj\Debug\Ejercicio38.csprojAssemblyReference.cache
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\obj\Debug\Ejercicio38.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\obj\Debug\Ejercicio38.exe
+C:\Users\Alejandro\source\repos\Ejercicio38\Ejercicio38\obj\Debug\Ejercicio38.pdb

@@ -15,7 +15,7 @@ namespace CentralitaHerencia
             Franja_2=125,
             Franja_3=66
         }
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
