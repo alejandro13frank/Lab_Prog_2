@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralTelefonica", "Centra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "CentralitaHerencia\CentralitaHerencia.csproj", "{F58B3606-1DBE-4F75-94B3-F83D7040A2B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmrCentralTelefonica", "FmrCentralTelefonica\FmrCentralTelefonica.csproj", "{2B55228F-4A33-476A-B766-C6EA95C18080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmLlamador", "frmLlamador\frmLlamador.csproj", "{5F85AAA6-2AF9-49CA-8637-E685FCF7D910}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F58B3606-1DBE-4F75-94B3-F83D7040A2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F58B3606-1DBE-4F75-94B3-F83D7040A2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F58B3606-1DBE-4F75-94B3-F83D7040A2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B55228F-4A33-476A-B766-C6EA95C18080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B55228F-4A33-476A-B766-C6EA95C18080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B55228F-4A33-476A-B766-C6EA95C18080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B55228F-4A33-476A-B766-C6EA95C18080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F85AAA6-2AF9-49CA-8637-E685FCF7D910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F85AAA6-2AF9-49CA-8637-E685FCF7D910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F85AAA6-2AF9-49CA-8637-E685FCF7D910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F85AAA6-2AF9-49CA-8637-E685FCF7D910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

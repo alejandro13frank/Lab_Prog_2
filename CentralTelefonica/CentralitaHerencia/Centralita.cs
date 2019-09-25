@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaHerencia
 {
-    class Centralita
+    public class Centralita
     {
         private List<Llamada> listaDeLlamadas;
         protected string razonSocial;
@@ -75,11 +75,11 @@ namespace CentralitaHerencia
             {
                 if (llamada is Local)
                 {
-                    stringBuilder.Append(((Local)llamada).CostoLlamada);
+                    stringBuilder.Append(((Local)llamada).ToString());
                 }
                 else
                 {
-                    stringBuilder.Append(((Provincial)llamada).CostoLlamada);
+                    stringBuilder.Append(((Provincial)llamada).ToString());
                 }
             }
             return stringBuilder.ToString();
@@ -87,6 +87,33 @@ namespace CentralitaHerencia
         public void OrdenarLlamadas()
         {
             this.listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+        }
+        private void AgregarLlamada(Llamada nuevaLlamada)
+        {
+            listaDeLlamadas.Add(nuevaLlamada);
+        }
+        public static bool operator ==(Centralita c,Llamada llamada)
+        {
+            foreach (Llamada call in c.listaDeLlamadas)
+            {
+               if (call==llamada)
+               {
+                  return true;
+               }
+            }
+            return false;
+        }
+        public static bool operator !=(Centralita c, Llamada llamada)
+        {
+            return !(c == llamada);
+        }
+        public static Centralita operator +(Centralita c, Llamada llamada)
+        {
+            if (c!=llamada)
+            {
+            c.AgregarLlamada(llamada);
+            }
+            return c;
         }
     }
 }

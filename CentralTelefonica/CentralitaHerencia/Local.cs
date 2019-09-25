@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,11 +28,19 @@ namespace CentralitaHerencia
         {
             return this.costo * this.Duracion;
         }
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendFormat("{0} , costo de llamada: {1}", base.Mostrar(), this.CostoLlamada);
             return stringBuilder.ToString();
+        }
+        public override bool Equals(object obj)
+        {
+          return obj is Provincial;
+        }
+        public override string ToString()
+        {
+          return this.Mostrar();
         }
     }
     

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +18,8 @@ namespace CentralitaHerencia
             Todas
         }
 
-        public float Duracion
+
+    public float Duracion
         {
             get
             {
@@ -59,10 +60,13 @@ namespace CentralitaHerencia
         {
             return llamada1.Duracion.CompareTo(llamada2.Duracion);
         }
-        /*public override bool Equals(Llamada obj)
+        public static bool operator ==(Llamada l1, Llamada l2)
         {
-            return ()
-        }*/
-
-    }
+            return (l1.Equals(l2) && l1.NroDestino == l2.NroDestino && l1.NroOrigen == l2.NroDestino); 
+        }
+        public static bool operator !=(Llamada l1, Llamada l2)
+        {
+           return !(l1 == l2);
+        }
+  }
 }
