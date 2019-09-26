@@ -43,7 +43,7 @@
             this.buttonAsterisco = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
             this.buttonNumeral = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbFranja = new System.Windows.Forms.ComboBox();
             this.txtNroOrigen = new System.Windows.Forms.TextBox();
             this.txtNroDestino = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -57,6 +57,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -66,6 +67,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -75,6 +77,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -84,6 +87,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -93,6 +97,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -102,6 +107,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -111,6 +117,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -120,6 +127,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -129,6 +137,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // btnLlamar
             // 
@@ -138,6 +147,7 @@
             this.btnLlamar.TabIndex = 9;
             this.btnLlamar.Text = "llamar";
             this.btnLlamar.UseVisualStyleBackColor = true;
+            this.btnLlamar.Click += new System.EventHandler(this.btnLlamar_Click);
             // 
             // btnLimpiar
             // 
@@ -147,6 +157,7 @@
             this.btnLimpiar.TabIndex = 10;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnSalir
             // 
@@ -156,6 +167,7 @@
             this.btnSalir.TabIndex = 11;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // buttonAsterisco
             // 
@@ -165,6 +177,7 @@
             this.buttonAsterisco.TabIndex = 12;
             this.buttonAsterisco.Text = "*";
             this.buttonAsterisco.UseVisualStyleBackColor = true;
+            this.buttonAsterisco.Click += new System.EventHandler(this.buttonAsterisco_Click);
             // 
             // button0
             // 
@@ -174,6 +187,7 @@
             this.button0.TabIndex = 13;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = true;
+            this.button0.Click += new System.EventHandler(this.button0_Click);
             // 
             // buttonNumeral
             // 
@@ -183,14 +197,16 @@
             this.buttonNumeral.TabIndex = 14;
             this.buttonNumeral.Text = "#";
             this.buttonNumeral.UseVisualStyleBackColor = true;
+            this.buttonNumeral.Click += new System.EventHandler(this.buttonNumeral_Click);
             // 
-            // comboBox1
+            // cmbFranja
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 249);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(304, 21);
-            this.comboBox1.TabIndex = 15;
+            this.cmbFranja.Enabled = false;
+            this.cmbFranja.FormattingEnabled = true;
+            this.cmbFranja.Location = new System.Drawing.Point(12, 249);
+            this.cmbFranja.Name = "cmbFranja";
+            this.cmbFranja.Size = new System.Drawing.Size(304, 21);
+            this.cmbFranja.TabIndex = 15;
             // 
             // txtNroOrigen
             // 
@@ -200,13 +216,16 @@
             this.txtNroOrigen.Size = new System.Drawing.Size(135, 31);
             this.txtNroOrigen.TabIndex = 16;
             this.txtNroOrigen.Text = "Nro Origen";
+            this.txtNroOrigen.Click += new System.EventHandler(this.txtNroOrigen_Click);
             // 
             // txtNroDestino
             // 
             this.txtNroDestino.Location = new System.Drawing.Point(12, 5);
             this.txtNroDestino.Name = "txtNroDestino";
-            this.txtNroDestino.Size = new System.Drawing.Size(275, 20);
+            this.txtNroDestino.Size = new System.Drawing.Size(304, 20);
             this.txtNroDestino.TabIndex = 17;
+            this.txtNroDestino.Text = "Nro Destino";
+            this.txtNroDestino.TextChanged += new System.EventHandler(this.txtNroDestino_TextChanged);
             // 
             // groupBox1
             // 
@@ -226,7 +245,7 @@
             this.ClientSize = new System.Drawing.Size(328, 282);
             this.Controls.Add(this.txtNroDestino);
             this.Controls.Add(this.txtNroOrigen);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbFranja);
             this.Controls.Add(this.buttonNumeral);
             this.Controls.Add(this.button0);
             this.Controls.Add(this.buttonAsterisco);
@@ -267,7 +286,7 @@
     private System.Windows.Forms.Button buttonAsterisco;
     private System.Windows.Forms.Button button0;
     private System.Windows.Forms.Button buttonNumeral;
-    private System.Windows.Forms.ComboBox comboBox1;
+    private System.Windows.Forms.ComboBox cmbFranja;
     private System.Windows.Forms.TextBox txtNroOrigen;
     private System.Windows.Forms.TextBox txtNroDestino;
     private System.Windows.Forms.GroupBox groupBox1;

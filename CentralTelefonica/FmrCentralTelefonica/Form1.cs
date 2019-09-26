@@ -24,5 +24,34 @@ namespace FmrCentralTelefonica
     {
       new frmLlamador.form1(c).ShowDialog();  
     }
-  }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnFacturacionTotal_Click(object sender, EventArgs e)
+        {
+            FrmMostrar frmMostrar = new FrmMostrar(c);
+            frmMostrar.TipoLlamada = Llamada.TipoLlamada.Todas;
+            frmMostrar.Mostrar();
+            frmMostrar.ShowDialog();
+        }
+
+        private void btnFacturacionLocal_Click(object sender, EventArgs e)
+        {
+            FrmMostrar frmMostrar = new FrmMostrar(c);
+            frmMostrar.TipoLlamada = Llamada.TipoLlamada.Local;
+            frmMostrar.Mostrar();
+            frmMostrar.ShowDialog();
+        }
+
+        private void btnFacturacionProv_Click(object sender, EventArgs e)
+        {
+            FrmMostrar frmMostrar = new FrmMostrar(c);
+            frmMostrar.TipoLlamada = Llamada.TipoLlamada.Provincial;
+            frmMostrar.Mostrar();
+            frmMostrar.ShowDialog();
+        }
+    }
 }

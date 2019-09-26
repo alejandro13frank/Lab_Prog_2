@@ -12,3 +12,17 @@ C:\Users\alumno\Desktop\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\Centr
 C:\Users\alumno\Desktop\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.csproj.CopyComplete
 C:\Users\alumno\Desktop\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.exe
 C:\Users\alumno\Desktop\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.pdb
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\frmLlamador.exe.config
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\frmLlamador.exe
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\frmLlamador.pdb
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\CentralitaHerencia.exe
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\CentralitaHerencia.pdb
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\bin\Debug\CentralitaHerencia.exe.config
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.csprojAssemblyReference.cache
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.form1.resources
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.Properties.Resources.resources
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.csproj.GenerateResource.cache
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.csproj.CoreCompileInputs.cache
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.csproj.CopyComplete
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.exe
+D:\Lab_Prog_2\CentralTelefonica\frmLlamador\obj\Debug\frmLlamador.pdb

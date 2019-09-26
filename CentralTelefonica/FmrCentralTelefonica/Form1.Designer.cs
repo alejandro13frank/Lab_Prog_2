@@ -53,6 +53,7 @@ namespace FmrCentralTelefonica
             this.btnFacturacionTotal.TabIndex = 1;
             this.btnFacturacionTotal.Text = "Facturacion Total";
             this.btnFacturacionTotal.UseVisualStyleBackColor = true;
+            this.btnFacturacionTotal.Click += new System.EventHandler(this.btnFacturacionTotal_Click);
             // 
             // btnFacturacionLocal
             // 
@@ -62,6 +63,7 @@ namespace FmrCentralTelefonica
             this.btnFacturacionLocal.TabIndex = 2;
             this.btnFacturacionLocal.Text = "Facturacion Local";
             this.btnFacturacionLocal.UseVisualStyleBackColor = true;
+            this.btnFacturacionLocal.Click += new System.EventHandler(this.btnFacturacionLocal_Click);
             // 
             // btnFacturacionProv
             // 
@@ -71,6 +73,7 @@ namespace FmrCentralTelefonica
             this.btnFacturacionProv.TabIndex = 3;
             this.btnFacturacionProv.Text = "Facturacion Provincial";
             this.btnFacturacionProv.UseVisualStyleBackColor = true;
+            this.btnFacturacionProv.Click += new System.EventHandler(this.btnFacturacionProv_Click);
             // 
             // btnSalir
             // 
@@ -80,6 +83,7 @@ namespace FmrCentralTelefonica
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Form1
             // 
