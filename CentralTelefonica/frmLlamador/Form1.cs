@@ -16,5 +16,9 @@ namespace frmLlamador
     {
       InitializeComponent();
     }
+    public Form1(Centralita c)
+    {
+      InitializeComponent();
+    }
   }
 }

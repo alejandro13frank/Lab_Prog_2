@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CentralitaHerencia;
+using frmLlamador;
 namespace FmrCentralTelefonica
 {
   public partial class Form1 : Form
@@ -21,7 +22,7 @@ namespace FmrCentralTelefonica
 
     private void btnGenerarLlamada_Click(object sender, EventArgs e)
     {
-      new fr
+      new frmLlamador.Form1(c).ShowDialog();  
     }
   }
 }

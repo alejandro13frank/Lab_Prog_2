@@ -83,6 +83,10 @@
       <Project>{f58b3606-1dbe-4f75-94b3-f83d7040a2b2}</Project>
       <Name>CentralitaHerencia</Name>
     </ProjectReference>
+    <ProjectReference Include="..\frmLlamador\frmLlamador.csproj">
+      <Project>{5f85aaa6-2af9-49ca-8637-e685fcf7d910}</Project>
+      <Name>frmLlamador</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

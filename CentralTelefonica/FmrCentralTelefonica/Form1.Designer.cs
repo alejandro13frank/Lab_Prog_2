@@ -41,7 +41,7 @@ namespace FmrCentralTelefonica
             this.btnGenerarLlamada.Name = "btnGenerarLlamada";
             this.btnGenerarLlamada.Size = new System.Drawing.Size(233, 45);
             this.btnGenerarLlamada.TabIndex = 0;
-            this.btnGenerarLlamada.Text = "Generar Llamada";
+            this.btnGenerarLlamada.Text = "Generar Lllamada";
             this.btnGenerarLlamada.UseVisualStyleBackColor = true;
             this.btnGenerarLlamada.Click += new System.EventHandler(this.btnGenerarLlamada_Click);
             // 
