@@ -22,7 +22,7 @@ namespace FmrCentralTelefonica
 
     private void btnGenerarLlamada_Click(object sender, EventArgs e)
     {
-      new frmLlamador.Form1(c).ShowDialog();  
+      new frmLlamador.form1(c).ShowDialog();  
     }
   }
 }

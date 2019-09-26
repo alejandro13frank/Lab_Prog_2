@@ -10,15 +10,24 @@ using System.Windows.Forms;
 using CentralitaHerencia;
 namespace frmLlamador
 {
-  public partial class Form1 : Form
+  public partial class form1 : Form
   {
-    public Form1()
+    Centralita c;
+        public Centralita Central
+        {
+            get
+            {
+                return this.c;
+            }
+        }
+        public form1()
     {
-      InitializeComponent();
+        InitializeComponent();
     }
-    public Form1(Centralita c)
+    public form1(Centralita c)
     {
-      InitializeComponent();
+        InitializeComponent();
+            this.c = c;
     }
   }
 }
