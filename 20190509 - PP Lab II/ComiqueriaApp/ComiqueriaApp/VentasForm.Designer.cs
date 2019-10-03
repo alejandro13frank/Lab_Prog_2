@@ -62,9 +62,19 @@
             // numericUpDownCantidad
             // 
             this.numericUpDownCantidad.Location = new System.Drawing.Point(17, 77);
+            this.numericUpDownCantidad.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDownCantidad.Name = "numericUpDownCantidad";
             this.numericUpDownCantidad.Size = new System.Drawing.Size(120, 20);
             this.numericUpDownCantidad.TabIndex = 2;
+            this.numericUpDownCantidad.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDownCantidad.ValueChanged += new System.EventHandler(this.NumericUpDownCantidad_ValueChanged);
             // 
             // lblPrecioFinal

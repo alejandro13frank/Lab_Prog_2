@@ -19,11 +19,12 @@ namespace ComiqueriaApp
             InitializeComponent();
             this.producto = producto;
             this.comiqueria = comiqueria;
+            lblDescripcion.Text = producto.Descripcion;
         }
 
         private void NumericUpDownCantidad_ValueChanged(object sender, EventArgs e)
         {
-            lblPrecioFinal.Text = $"Precio Final: ${this.producto.Precio*int.Parse(lblCantidad.Text)}";
+            lblPrecioFinal.Text = $"Precio Final: ${this.producto.Precio*(double)numericUpDownCantidad.Value}";
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
@@ -33,10 +34,11 @@ namespace ComiqueriaApp
 
         private void BtnVender_Click(object sender, EventArgs e)
         {
-            if (int.Parse(numericUpDownCantidad.Text)>this.producto.Stock)
+            if (int.Parse(numericUpDownCantidad.Text)<=this.producto.Stock)
             {
-                this.comiqueria.Vender(producto, int.Parse(lblCantidad.Text));
+                this.comiqueria.Vender(producto,(int)numericUpDownCantidad.Value);
                 MessageBox.Show("se vendio correctamente");
+                this.DialogResult = DialogResult.OK;
                 this.Close();
             }
             else

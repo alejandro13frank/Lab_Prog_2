@@ -55,3 +55,17 @@ C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\Comique
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.VentasForm.resources
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.GenerateResource.cache
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.PrincipalForm.resources
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.Properties.Resources.resources
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.VentasForm.resources
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.GenerateResource.cache
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.exe.config
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.exe
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.pdb
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.dll
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.pdb
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.exe
+D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.pdb
