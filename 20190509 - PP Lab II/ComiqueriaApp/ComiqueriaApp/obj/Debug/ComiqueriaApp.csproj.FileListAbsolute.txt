@@ -49,3 +49,9 @@ C:\Users\Kima\Desktop\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.pdb
 C:\Users\Kima\Desktop\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.dll
 C:\Users\Kima\Desktop\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.pdb
 C:\Users\Kima\Desktop\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csprojAssemblyReference.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.PrincipalForm.resources
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.Properties.Resources.resources
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.VentasForm.resources
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.GenerateResource.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CoreCompileInputs.cache

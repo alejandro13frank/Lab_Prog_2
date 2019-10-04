@@ -36,7 +36,7 @@ namespace ComiqueriaLogic
         }
         public static double CalcularPrecio(double precio,int cantidad)
         {
-            return (precio * cantidad) + ((precio * cantidad) * ((double)Venta.porcentajeIva / 100));
+            return (precio * cantidad) + (((precio * cantidad) * Venta.porcentajeIva) / 100);
         }
         public string ObtenerDescripcionBreve()
         {
