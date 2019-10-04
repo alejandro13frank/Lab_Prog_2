@@ -1,0 +1,9 @@
+D:\VisualStudio\Ejercicio42\Ejercicio42\bin\Debug\netstandard2.0\Ejercicio42.deps.json
+D:\VisualStudio\Ejercicio42\Ejercicio42\bin\Debug\netstandard2.0\Ejercicio42.dll
+D:\VisualStudio\Ejercicio42\Ejercicio42\bin\Debug\netstandard2.0\Ejercicio42.pdb
+D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.AssemblyInfoInputs.cache
+D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.AssemblyInfo.cs
+D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.dll
+D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.pdb
