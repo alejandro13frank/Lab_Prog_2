@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using ComprobastesLogic;
 
 namespace ComiqueriaLogic
 {
     public class Comiqueria
     {
+        //private static Stack<Comprobante> comprobantes;
         private List<Producto> productos;
         private List<Venta> ventas;
         public Producto this[Guid codigo]

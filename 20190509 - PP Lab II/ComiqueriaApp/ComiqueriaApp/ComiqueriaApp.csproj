@@ -95,6 +95,10 @@
       <Project>{d3a0ec54-1439-49ca-8d61-d70bb6f52c04}</Project>
       <Name>ComiqueriaLogic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ComprobastesLogic\ComprobastesLogic.csproj">
+      <Project>{28fbe47b-2b45-4125-9fc8-f041dbb52c41}</Project>
+      <Name>ComprobastesLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -69,3 +69,11 @@ D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\b
 D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
 D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.exe
 D:\Alejandro Frank\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.exe.config
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.exe
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.exe
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.pdb

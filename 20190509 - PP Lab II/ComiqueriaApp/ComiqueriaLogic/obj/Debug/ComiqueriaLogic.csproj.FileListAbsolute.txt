@@ -1,6 +1,5 @@
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.dll
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.pdb
-C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csprojAssemblyReference.cache
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
 C:\Users\Alejandro\Desktop\Lab_Prog_2\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb

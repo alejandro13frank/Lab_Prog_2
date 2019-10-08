@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComiqueriaApp", "ComiqueriaApp\ComiqueriaApp.csproj", "{EE473F46-6A42-4285-ACE9-D77CED9F0B95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComiqueriaLogic", "ComiqueriaLogic\ComiqueriaLogic.csproj", "{D3A0EC54-1439-49CA-8D61-D70BB6F52C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComprobastesLogic", "ComprobastesLogic\ComprobastesLogic.csproj", "{28FBE47B-2B45-4125-9FC8-F041DBB52C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D3A0EC54-1439-49CA-8D61-D70BB6F52C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3A0EC54-1439-49CA-8D61-D70BB6F52C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3A0EC54-1439-49CA-8D61-D70BB6F52C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FBE47B-2B45-4125-9FC8-F041DBB52C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FBE47B-2B45-4125-9FC8-F041DBB52C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FBE47B-2B45-4125-9FC8-F041DBB52C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FBE47B-2B45-4125-9FC8-F041DBB52C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

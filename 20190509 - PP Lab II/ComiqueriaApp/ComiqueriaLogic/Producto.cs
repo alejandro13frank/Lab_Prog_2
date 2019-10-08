@@ -26,6 +26,13 @@ namespace ComiqueriaLogic
             {
                 return precio;
             }
+            set
+            {
+                if (value>=1)
+                {
+                    this.precio = value;
+                }
+            }
         }
         public int Stock
         {

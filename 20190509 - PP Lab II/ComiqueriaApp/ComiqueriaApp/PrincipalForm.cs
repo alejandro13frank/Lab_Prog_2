@@ -92,5 +92,10 @@ namespace ComiqueriaApp
             //MessageBox.Show("hola");
             //this.Close();
         }
+
+        private void BtnModificar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
