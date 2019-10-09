@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{7C2342A5-71E7-4258-BDC1-9A7B87CD56FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmSistemaSolar", "FrmSistemaSolar\FrmSistemaSolar.csproj", "{7FD4658A-48F6-4BD1-A81F-96FB8CF8A6F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C2342A5-71E7-4258-BDC1-9A7B87CD56FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2342A5-71E7-4258-BDC1-9A7B87CD56FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2342A5-71E7-4258-BDC1-9A7B87CD56FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2342A5-71E7-4258-BDC1-9A7B87CD56FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD4658A-48F6-4BD1-A81F-96FB8CF8A6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD4658A-48F6-4BD1-A81F-96FB8CF8A6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD4658A-48F6-4BD1-A81F-96FB8CF8A6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD4658A-48F6-4BD1-A81F-96FB8CF8A6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A252E30-FAAC-4571-A90B-FEEA32BA0317}
+	EndGlobalSection
+EndGlobal
