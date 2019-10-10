@@ -1,0 +1,170 @@
+ public class Euro
+    {
+        double cantidad;
+        public static double cotizRespectoDolar;
+
+        public Euro()
+        {
+            Euro.cotizRespectoDolar = 1.16;
+        }
+        public Euro(double cantidad)
+        {
+            this.cantidad = cantidad;
+        }
+        public Euro(double cantidad, double cotizacion) : this (cantidad)
+        {
+            Euro.cotizRespectoDolar = cotizacion;
+        }
+        public static explicit operator Dolar(Euro a)
+        {
+            Dolar aux = new Dolar(a.GetCantidad() / Euro.GetCotizacion());
+            return aux;
+        }
+        public static explicit operator Peso(Euro a)
+        {
+            Peso aux = (Peso)((Dolar)a);
+            return aux;
+        }
+        
+        public static implicit operator Euro(double a)
+        {
+            Euro aux = new Euro(a);
+            return aux;
+        }
+
+        public static double GetCotizacion()
+        {
+            return cotizRespectoDolar;
+        }
+        public double GetCantidad()
+        {
+            return this.cantidad;
+        }
+
+        public static Euro operator +(Euro a, Euro b)
+        {
+            return (a.GetCantidad() + b.GetCantidad());
+        }
+
+        public static Euro operator +(Euro a, Dolar b)
+        {
+            return (a + (Euro)b);
+        }
+
+        public static Euro operator +(Euro a, Peso b)
+        {
+            return (a + (Euro)b);
+        }
+
+        public static Euro operator -(Euro a, Euro b)
+        {
+            return (a.GetCantidad() - b.GetCantidad());
+        }
+
+        public static Euro operator -(Euro a, Dolar b)
+        {
+            return (a - (Euro)b);
+        }
+
+        public static Euro operator -(Euro a, Peso b)
+        {
+            return (a - (Euro)b);
+        }
+        public static bool operator ==(Euro a, Peso b)
+        {
+            bool retorno = false;
+            if (a.GetCantidad() == b.getCantidad())
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator ==(Euro a, Dolar b)
+        {
+
+            bool retorno = false;
+            if (a.GetCantidad() == b.getCantidad())
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator !=(Euro a, Peso b)
+        {
+            return !(a == b);
+        }
+        public static bool operator !=(Euro a, Dolar b)
+        {
+            return !(a == b);
+        }
+
+        public static bool operator ==(Euro a, Euro b)
+        {
+            bool retorno = false;
+            if (a.GetCantidad() == b.GetCantidad())
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+
+        public static bool operator !=(Euro a, Euro b)
+        {
+            return !(a == b);
+        }
+    }
+**********************************
+
+ public override string ToString()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.AppendFormat("Descripcion: {0} \nCodigo: {1} \nPrecio: ${2} \nStock: {3}",
+                                        this.Descripcion,this.codigo,this.Precio,this.Stock);
+            return stringBuilder.ToString();
+        }
+************************************
+
+ public Producto this[Guid codigo]
+        {
+            get
+            {
+                
+                foreach (Producto p in this.productos)
+                {
+                    if (((Guid)p)==codigo)
+                    {
+                        return p;
+                    }
+                }
+                return null;
+            }
+        }
+***********************************
+public Dictionary<Guid, string> ListarProductos()
+        {
+            Dictionary<Guid, string> nuevoDiccionario = new Dictionary<Guid, string>();
+            foreach (Producto producto in this.productos)
+            {
+                nuevoDiccionario.Add((Guid)producto,producto.Descripcion);
+            }
+            return nuevoDiccionario;
+        }
+**************************************
+public static explicit operator Producto(Venta v)
+        {
+            return v.producto;
+        }
+**********************************
+        public override string ToString()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.AppendFormat("Descripcion: {0} \nCodigo: {1} \nPrecio: ${2} \nStock: {3}",
+                                        this.Descripcion,this.codigo,this.Precio,this.Stock);
+            return stringBuilder.ToString();
+        }
+***********************************
+        public static explicit operator Guid(Producto p)
+        {
+            return p.codigo;
+        }
+**************************************
