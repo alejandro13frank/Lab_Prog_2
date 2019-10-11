@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entidades
 {
-    class Planeta : Astro
+    public class Planeta : Astro
     {
         int cantSatelites;
         Tipo tipo;

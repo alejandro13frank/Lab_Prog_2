@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entidades
 {
-    class Satelite : Astro
+    public class Satelite : Astro
     {
         public string Nombre
         {

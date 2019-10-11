@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entidades
 {
-    class SistemaSolar
+    public class SistemaSolar
     {
         List<Astro> planetas;
 
