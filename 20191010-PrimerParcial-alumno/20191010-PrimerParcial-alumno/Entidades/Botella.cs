@@ -39,9 +39,11 @@ namespace Entidades
         {
             get
             {
-                return 80;
+
+                return (float)(contenidoML*100)/capacidadML;
             }
             //no entendi con que hacer la relacion de 3
+            //Ahora lo entendi, era facil estaba nervioso
 
         }
         protected Botella(string marca, int capacidadML, int contenidoML)
@@ -57,7 +59,7 @@ namespace Entidades
         protected string GenerarInforme()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.AppendFormat("Marca: {0} \nCapacidad: {1} \nContenido: {2} \nPorcentaje: {3}",
+            stringBuilder.AppendFormat("Marca: {0} \nCapacidad: {1} \nContenido: {2} \nPorcentaje: {3}%",
                                         this.marca, this.capacidadML, this.contenidoML, this.PorcentajeContenido);
             return stringBuilder.ToString();
         }

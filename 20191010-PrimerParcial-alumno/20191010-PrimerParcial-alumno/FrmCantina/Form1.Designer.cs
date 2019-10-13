@@ -39,8 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.rBtnCerveza = new System.Windows.Forms.RadioButton();
             this.rBtnAgua = new System.Windows.Forms.RadioButton();
-            this.barra = new ControlCantina.Barra();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.barra = new ControlCantina.Barra();
             ((System.ComponentModel.ISupportInitialize)(this.numCapacidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numContenido)).BeginInit();
             this.SuspendLayout();
@@ -55,9 +55,6 @@
             // cmbTipo
             // 
             this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Items.AddRange(new object[] {
-            "Vidrio",
-            "Plastico"});
             this.cmbTipo.Location = new System.Drawing.Point(445, 406);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(192, 21);
@@ -165,14 +162,6 @@
             this.rBtnAgua.Text = "Agua";
             this.rBtnAgua.UseVisualStyleBackColor = true;
             // 
-            // barra
-            // 
-            this.barra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("barra.BackgroundImage")));
-            this.barra.Location = new System.Drawing.Point(132, 0);
-            this.barra.Name = "barra";
-            this.barra.Size = new System.Drawing.Size(551, 368);
-            this.barra.TabIndex = 10;
-            // 
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(642, 473);
@@ -182,6 +171,14 @@
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // barra
+            // 
+            this.barra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("barra.BackgroundImage")));
+            this.barra.Location = new System.Drawing.Point(132, 0);
+            this.barra.Name = "barra";
+            this.barra.Size = new System.Drawing.Size(551, 368);
+            this.barra.TabIndex = 10;
             // 
             // Form1
             // 
@@ -202,6 +199,7 @@
             this.Controls.Add(this.txtMarca);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numCapacidad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numContenido)).EndInit();
             this.ResumeLayout(false);

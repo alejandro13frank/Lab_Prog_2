@@ -4,3 +4,8 @@ D:\Alejandro Frank\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParci
 D:\Alejandro Frank\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.dll
 D:\Alejandro Frank\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.pdb
 D:\Alejandro Frank\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\20191010-PrimerParcial-alumno\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.pdb

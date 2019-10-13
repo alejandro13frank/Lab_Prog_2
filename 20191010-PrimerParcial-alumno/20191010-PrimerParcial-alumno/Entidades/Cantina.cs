@@ -40,9 +40,10 @@ namespace Entidades
         {
             try
             {
-                if (espaciosTotales>=1)
-                cantina.botellas.Add(b);
-                espaciosTotales--;
+                if (cantina.botellas.Count<=espaciosTotales)
+                {
+                    cantina.botellas.Add(b);
+                }
             }
             catch
             {

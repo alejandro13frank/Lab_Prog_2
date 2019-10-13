@@ -14,7 +14,7 @@ namespace FrmCantina
 {
     public partial class Form1 : Form
     {
-       
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,12 +28,11 @@ namespace FrmCantina
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-           /* Botella.Tipo tipo;
-            Enum.TryParse<Botella.Tipo>(cmbTipo.SelectedValue.ToString(), out tipo);*/
-            //no pude arreglarlo, al compilar tira un error.
-            //hardco
+            Botella.Tipo tipo;
+            Enum.TryParse<Botella.Tipo>(cmbTipo.SelectedValue.ToString(), out tipo);
             
-            if(rBtnAgua.Checked)
+
+            if (rBtnAgua.Checked)
             {
                 Agua botellaAgua = new Agua(txtMarca.Text, (int)numCapacidad.Value, (int)numContenido.Value);
                 this.barra.AgregarBotella(botellaAgua);
@@ -41,7 +40,7 @@ namespace FrmCantina
             }
             else if (rBtnCerveza.Checked)
             {
-                Cerveza botellaCerveza = new Cerveza(txtMarca.Text, (int)numCapacidad.Value, (int)numContenido.Value,Botella.Tipo.Plastico);
+                Cerveza botellaCerveza = new Cerveza(txtMarca.Text, (int)numCapacidad.Value, (int)numContenido.Value,tipo);
                 this.barra.AgregarBotella(botellaCerveza);
             }
             else
