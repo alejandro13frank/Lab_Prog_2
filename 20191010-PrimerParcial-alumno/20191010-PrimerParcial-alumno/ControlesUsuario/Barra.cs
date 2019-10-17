@@ -82,7 +82,7 @@ namespace ControlCantina
             this.Controls.Add(pb);
             offset += CORRIMIENTO_OFFSET;
         }
-
+        
         private void ServirCopa(object sender, EventArgs e)
         {
             PictureBox pb = (PictureBox)sender;

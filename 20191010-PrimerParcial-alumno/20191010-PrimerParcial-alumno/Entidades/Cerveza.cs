@@ -19,11 +19,12 @@ namespace Entidades
         {
             this.tipo = tipo;
         }
-        protected new string GenerarInforme()
+        protected override string GenerarInforme()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine(base.GenerarInforme());
             stringBuilder.AppendLine($"Medida: {Cerveza.MEDIDA}");
+            stringBuilder.AppendLine($"Tipo: {this.tipo}");
             return stringBuilder.ToString();
         }
         public override int ServirMedida()

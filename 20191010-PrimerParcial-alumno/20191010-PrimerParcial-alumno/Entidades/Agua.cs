@@ -14,7 +14,7 @@ namespace Entidades
         {
 
         }
-        protected new string GenerarInforme()
+        protected override string GenerarInforme()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine(base.GenerarInforme());

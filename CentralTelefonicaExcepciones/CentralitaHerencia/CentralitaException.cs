@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaHerencia
 {
-  class CentralitaException : Exception
+  public class CentralitaException : Exception
   {
     public string clase;
     public string metodo;

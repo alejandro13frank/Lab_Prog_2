@@ -127,7 +127,16 @@ namespace frmLlamador
             }
             else
             {
-                this.c += (new Local(txtNroOrigen.Text, random.Next(1, 50), txtNroDestino.Text, (float)random.Next(5, 56) / 10));
+
+                try
+                {
+                    this.c += (new Local(txtNroOrigen.Text, random.Next(1, 50), txtNroDestino.Text, (float)random.Next(5, 56) / 10));
+                }
+                catch (CentralitaException nombreque)
+                {   
+                    MessageBox.Show(nombreque.Message);
+                }
+               
             }
             MessageBox.Show("La llamada se agrego correctamente");
         }

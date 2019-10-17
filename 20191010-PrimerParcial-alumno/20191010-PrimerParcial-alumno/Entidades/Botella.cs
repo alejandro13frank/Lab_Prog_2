@@ -56,7 +56,7 @@ namespace Entidades
             this.capacidadML = capacidadML;
             this.contenidoML = contenidoML;
         }
-        protected string GenerarInforme()
+        protected virtual string GenerarInforme()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendFormat("Marca: {0} \nCapacidad: {1} \nContenido: {2} \nPorcentaje: {3}%",
