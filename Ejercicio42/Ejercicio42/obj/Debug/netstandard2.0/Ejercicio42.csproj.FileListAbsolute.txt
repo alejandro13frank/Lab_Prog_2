@@ -7,3 +7,12 @@ D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.Ass
 D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.AssemblyInfo.cs
 D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.dll
 D:\VisualStudio\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.pdb
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\bin\Debug\netstandard2.0\Ejercicio42.deps.json
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\bin\Debug\netstandard2.0\Ejercicio42.dll
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\bin\Debug\netstandard2.0\Ejercicio42.pdb
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.AssemblyInfoInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.AssemblyInfo.cs
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.dll
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio42\Ejercicio42\obj\Debug\netstandard2.0\Ejercicio42.pdb

@@ -1,0 +1,7 @@
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\obj\Debug\CentralTelefonica.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+D:\Alejandro Frank\Lab_Prog_2\CentralTelefonicaExcepciones(44)\CentralTelefonica\obj\Debug\CentralTelefonica.pdb

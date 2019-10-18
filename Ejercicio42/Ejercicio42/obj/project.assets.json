@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio\\Ejercicio42\\Ejercicio42\\Ejercicio42.csproj",
+      "projectUniqueName": "D:\\Alejandro Frank\\Lab_Prog_2\\Ejercicio42\\Ejercicio42\\Ejercicio42.csproj",
       "projectName": "Ejercicio42",
-      "projectPath": "D:\\VisualStudio\\Ejercicio42\\Ejercicio42\\Ejercicio42.csproj",
+      "projectPath": "D:\\Alejandro Frank\\Lab_Prog_2\\Ejercicio42\\Ejercicio42\\Ejercicio42.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio\\Ejercicio42\\Ejercicio42\\obj\\",
+      "outputPath": "D:\\Alejandro Frank\\Lab_Prog_2\\Ejercicio42\\Ejercicio42\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
