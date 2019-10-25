@@ -1,0 +1,7 @@
+D:\VisualStudio\Ejercicio50\Ejercicio50\bin\Debug\Ejercicio50.exe.config
+D:\VisualStudio\Ejercicio50\Ejercicio50\bin\Debug\Ejercicio50.exe
+D:\VisualStudio\Ejercicio50\Ejercicio50\bin\Debug\Ejercicio50.pdb
+D:\VisualStudio\Ejercicio50\Ejercicio50\obj\Debug\Ejercicio50.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio50\Ejercicio50\obj\Debug\Ejercicio50.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio50\Ejercicio50\obj\Debug\Ejercicio50.exe
+D:\VisualStudio\Ejercicio50\Ejercicio50\obj\Debug\Ejercicio50.pdb

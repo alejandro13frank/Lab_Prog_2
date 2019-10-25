@@ -53,6 +53,10 @@
       <Project>{0ca900a6-b03f-4fd7-b057-fe8695dbf25d}</Project>
       <Name>Ejercicio42</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IO\IO.csproj">
+      <Project>{1e643202-222e-4b46-bdb5-7b540dd0dc56}</Project>
+      <Name>IO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

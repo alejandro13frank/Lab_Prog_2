@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ejercicio42;
+using IO;
 namespace ejecucion
 {
     class Program
@@ -17,7 +18,9 @@ namespace ejecucion
             catch (UnaEsepcion perro)
             {
                 Console.WriteLine("hola esepcion {0}\n", perro.Message);
+                ArchivTexto.Guardar("archiv.txt", perro.Message);
                 Console.WriteLine("hola esepcion {0}\n", perro.StackTrace);
+                ArchivTexto.Guardar("archiv.txt", perro.Message);
                 Console.WriteLine("hola esepcion {0}\n", perro.InnerException.Message);
                 Console.WriteLine("hola esepcion {0}\n\n\n", perro.InnerException.InnerException.Message);
                 Console.WriteLine("hola esepcion {0}\n", perro.InnerException.InnerException.InnerException.StackTrace);
