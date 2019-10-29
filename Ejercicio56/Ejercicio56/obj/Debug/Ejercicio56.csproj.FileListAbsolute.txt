@@ -1,0 +1,10 @@
+D:\VisualStudio\Ejercicio56\Ejercicio56\bin\Debug\Ejercicio56.exe.config
+D:\VisualStudio\Ejercicio56\Ejercicio56\bin\Debug\Ejercicio56.exe
+D:\VisualStudio\Ejercicio56\Ejercicio56\bin\Debug\Ejercicio56.pdb
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.Form1.resources
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.Properties.Resources.resources
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csproj.GenerateResource.cache
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.exe
+D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.pdb
