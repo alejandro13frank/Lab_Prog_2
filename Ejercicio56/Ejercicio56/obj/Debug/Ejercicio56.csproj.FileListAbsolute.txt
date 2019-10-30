@@ -8,3 +8,13 @@ D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csproj.GenerateRes
 D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csproj.CoreCompileInputs.cache
 D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.exe
 D:\VisualStudio\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.pdb
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\bin\Debug\Ejercicio56.exe.config
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\bin\Debug\Ejercicio56.exe
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\bin\Debug\Ejercicio56.pdb
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.Form1.resources
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.Properties.Resources.resources
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csproj.GenerateResource.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.exe
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio56\Ejercicio56\obj\Debug\Ejercicio56.pdb

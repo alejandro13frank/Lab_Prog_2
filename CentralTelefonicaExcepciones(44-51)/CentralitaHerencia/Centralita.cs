@@ -3,15 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.IO;
 namespace CentralitaHerencia
 {
-    public class Centralita : IGuardar<T>
+    public class Centralita : IGuardar<string>
     {
         private List<Llamada> listaDeLlamadas;
         protected string razonSocial;
 
-        public bool Guardar
+        public bool Guardar()
+        {
+
+            return true;
+        }
+        public string Leer()
+        {
+            return "tumama";
+        }
 
         public float GananciasPorLocal
         {
