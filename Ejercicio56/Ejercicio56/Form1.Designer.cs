@@ -72,21 +72,24 @@
             // stripMenuBtnAbrir
             // 
             this.stripMenuBtnAbrir.Name = "stripMenuBtnAbrir";
-            this.stripMenuBtnAbrir.Size = new System.Drawing.Size(159, 22);
+            this.stripMenuBtnAbrir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.stripMenuBtnAbrir.Size = new System.Drawing.Size(201, 22);
             this.stripMenuBtnAbrir.Text = "Abrir ";
             this.stripMenuBtnAbrir.Click += new System.EventHandler(this.stripMenuBtnAbrir_Click);
             // 
             // stripMenuBtnGuardar
             // 
             this.stripMenuBtnGuardar.Name = "stripMenuBtnGuardar";
-            this.stripMenuBtnGuardar.Size = new System.Drawing.Size(159, 22);
+            this.stripMenuBtnGuardar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.stripMenuBtnGuardar.Size = new System.Drawing.Size(201, 22);
             this.stripMenuBtnGuardar.Text = "Guardar";
             this.stripMenuBtnGuardar.Click += new System.EventHandler(this.stripMenuBtnGuardar_Click);
             // 
             // stripMenuBtnGuardarComo
             // 
             this.stripMenuBtnGuardarComo.Name = "stripMenuBtnGuardarComo";
-            this.stripMenuBtnGuardarComo.Size = new System.Drawing.Size(159, 22);
+            this.stripMenuBtnGuardarComo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.stripMenuBtnGuardarComo.Size = new System.Drawing.Size(201, 22);
             this.stripMenuBtnGuardarComo.Text = "Guardar como...";
             this.stripMenuBtnGuardarComo.Click += new System.EventHandler(this.stripMenuBtnGuardarComo_Click);
             // 
