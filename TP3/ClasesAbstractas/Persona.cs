@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
-
+using Excepciones;
 namespace ClasesAbstractas
 {
     public abstract class Persona
@@ -26,7 +26,7 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.nombre = value;
+                this.nombre = ValidarNombreApellido(value);
             }
         }
         public string Apellido
@@ -37,7 +37,7 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.apellido = value;
+                this.apellido = ValidarNombreApellido(value);
             }
         }
         public int DNI
@@ -48,7 +48,7 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.dni = value;
+                this.dni = ValidarDNI(this.nacionalidad,value);
             }
         }
         public ENacionalidad Nacionalidad
@@ -66,7 +66,7 @@ namespace ClasesAbstractas
         {
             set
             {
-                this.dni = int.Parse(value);
+                this.dni = ValidarDNI(this.nacionalidad, value);
             }
         }
         public Persona()
@@ -75,7 +75,9 @@ namespace ClasesAbstractas
         }
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
-
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Nacionalidad = nacionalidad;
         }
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad):this(nombre,apellido,dni.ToString(),nacionalidad) 
         {
@@ -83,11 +85,42 @@ namespace ClasesAbstractas
         }
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad): this(nombre, apellido, nacionalidad)
         {
-
+            this.StringToDNI = dni;
+        }
+        private int ValidarDNI(ENacionalidad nacionalidad, int dni)
+        {
+            if (nacionalidad == ENacionalidad.Argentino && dni>=1 && dni<=89999999 || nacionalidad == ENacionalidad.Extrangero && dni>89999999 && dni<= 99999999)
+            {
+                return dni;
+            }
+            throw new NacionalidadInvalidaException();
+            
+        }
+        private int ValidarDNI(ENacionalidad nacionalidad, string dni)
+        {
+            int auxDni;
+            if (int.TryParse(dni,out auxDni))
+            {
+                return ValidarDNI(nacionalidad, auxDni);
+            }
+            throw new DniInvalidoException();
+        }
+        private string ValidarNombreApellido(string dato)
+        {
+            if (Regex.IsMatch(dato, "^[a-zA-Z]+$"))
+            {
+                return dato;
+            }
+            return "";
         }
         public override string ToString()
         {
-            return base.ToString();
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine($"nombre:{this.Nombre}");
+            stringBuilder.AppendLine($"apellido:{this.Apellido}");
+            stringBuilder.AppendLine($"dni:{this.DNI.ToString()}");
+            stringBuilder.AppendLine($"nacionalidad:{this.Nacionalidad.ToString()}");
+            return stringBuilder.ToString();
         }
     }
 }
