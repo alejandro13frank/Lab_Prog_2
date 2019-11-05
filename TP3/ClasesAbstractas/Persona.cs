@@ -116,10 +116,9 @@ namespace ClasesAbstractas
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine($"nombre:{this.Nombre}");
-            stringBuilder.AppendLine($"apellido:{this.Apellido}");
-            stringBuilder.AppendLine($"dni:{this.DNI.ToString()}");
-            stringBuilder.AppendLine($"nacionalidad:{this.Nacionalidad.ToString()}");
+            stringBuilder.AppendLine($"NOMBRE COMPLETO: {this.Apellido},{this.Nombre}");
+            stringBuilder.AppendLine($"DNI:{this.DNI.ToString()}");
+            stringBuilder.AppendLine($"NACIONALIDA:{this.Nacionalidad.ToString()}");
             return stringBuilder.ToString();
         }
     }

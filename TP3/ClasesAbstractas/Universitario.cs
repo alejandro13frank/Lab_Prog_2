@@ -18,7 +18,7 @@ namespace ClasesAbstractas
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"{base.ToString()}");
-            stringBuilder.AppendLine($"{this.legajo.ToString()}");
+            stringBuilder.AppendLine($"LEGAJO: {this.legajo.ToString()}");
             return stringBuilder.ToString();
         }
         public Universitario()
