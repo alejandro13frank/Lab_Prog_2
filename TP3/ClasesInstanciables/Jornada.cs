@@ -79,9 +79,9 @@ namespace ClasesInstanciables
         }
         public static Jornada operator +(Jornada j, Alumno a)
         {
-            foreach (Alumno alumno in j.Alumnos)
+            foreach(Alumno alumno in j.Alumnos)
             {
-                if (a==alumno)
+                if (alumno.Equals(a))
                 {
                     return j;
                 }
