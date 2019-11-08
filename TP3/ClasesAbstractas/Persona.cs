@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using Excepciones;
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
         public enum ENacionalidad
         {
             Argentino,
-            Extrangero
+            Extranjero
         }
         string nombre;
         string apellido;
@@ -89,7 +89,7 @@ namespace ClasesAbstractas
         }
         private int ValidarDNI(ENacionalidad nacionalidad, int dni)
         {
-            if (nacionalidad == ENacionalidad.Argentino && dni>=1 && dni<=89999999 || nacionalidad == ENacionalidad.Extrangero && dni>89999999 && dni<= 99999999)
+            if (nacionalidad == ENacionalidad.Argentino && dni>=1 && dni<=89999999 || nacionalidad == ENacionalidad.Extranjero && dni>89999999 && dni<= 99999999)
             {
                 return dni;
             }
@@ -117,7 +117,7 @@ namespace ClasesAbstractas
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"NOMBRE COMPLETO: {this.Apellido},{this.Nombre}");
-            stringBuilder.AppendLine($"DNI:{this.DNI.ToString()}");
+            stringBuilder.AppendLine($"DNI:{(this.DNI).ToString()}");
             stringBuilder.AppendLine($"NACIONALIDA:{this.Nacionalidad.ToString()}");
             return stringBuilder.ToString();
         }

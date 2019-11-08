@@ -10,7 +10,7 @@ namespace ClasesInstanciables
     public class Jornada
     {
         private List<Alumno> alumnos;
-        private Universidad.EClase clase;
+        private Universidad.EClases clase;
         private Profesor instructor;
         public List<Alumno> Alumnos
         {
@@ -23,7 +23,7 @@ namespace ClasesInstanciables
                 this.alumnos = value;
             }
         }
-        public Universidad.EClase Clase
+        public Universidad.EClases Clase
         {
             get
             {
@@ -45,7 +45,7 @@ namespace ClasesInstanciables
                 this.instructor = value;
             }
         }
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
             Texto texto = new Texto();
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"\\Jornada.txt";
@@ -64,7 +64,7 @@ namespace ClasesInstanciables
         {
             this.Alumnos = new List<Alumno>();
         }
-        public Jornada(Universidad.EClase clase, Profesor instructor):this()
+        public Jornada(Universidad.EClases clase, Profesor instructor):this()
         {
             this.Clase = clase;
             this.Instructor = instructor;
@@ -94,7 +94,7 @@ namespace ClasesInstanciables
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("JORNADA:");
             stringBuilder.AppendLine($"CLASE DE {this.Clase.ToString()} ");
-            stringBuilder.AppendFormat($"{this.Instructor.ToString()}");
+            stringBuilder.Append($"POR {this.Instructor.ToString()}");
             stringBuilder.AppendLine();
             foreach (Alumno alumno in this.Alumnos)
             {

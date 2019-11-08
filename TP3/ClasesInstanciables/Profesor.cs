@@ -3,26 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 namespace ClasesInstanciables
 {
     public sealed class Profesor : Universitario
     {
-        private Queue<Universidad.EClase> clasesDelDia;
+        private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
 
         private void _randomClase()
         {
-            this.clasesDelDia.Enqueue((Universidad.EClase)random.Next(0,3));
-            this.clasesDelDia.Enqueue((Universidad.EClase)random.Next(0, 3));
+            this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0,3));
+            this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0, 3));
         }
         protected override string MostrarDatos()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"{base.ToString()}");
-            foreach (Universidad.EClase clase  in this.clasesDelDia)
+            foreach (Universidad.EClases clase  in this.clasesDelDia)
             {
-                stringBuilder.AppendLine($"clase: {clase.ToString()}");
+                stringBuilder.AppendLine($"CLASE: {clase.ToString()}");
             }
             return stringBuilder.ToString();
         }
@@ -30,7 +30,7 @@ namespace ClasesInstanciables
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("CLASES DEL DIA");
-            foreach (Universidad.EClase clase in this.clasesDelDia)
+            foreach (Universidad.EClases clase in this.clasesDelDia)
             {
                 stringBuilder.AppendLine($"{clase.ToString()}");   
             }
@@ -46,16 +46,16 @@ namespace ClasesInstanciables
         }
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad): base(id,nombre,apellido,dni,nacionalidad)
         {
-            this.clasesDelDia = new Queue<Universidad.EClase>();
+            this.clasesDelDia = new Queue<Universidad.EClases>();
             this._randomClase();
         }
         public override string ToString()
         {
             return this.MostrarDatos();
         }
-        public static bool operator ==(Profesor i,Universidad.EClase clase)
+        public static bool operator ==(Profesor i,Universidad.EClases clase)
         {
-            foreach (Universidad.EClase auxClase in i.clasesDelDia)
+            foreach (Universidad.EClases auxClase in i.clasesDelDia)
             {
                 if (clase == auxClase)
                 {
@@ -64,7 +64,7 @@ namespace ClasesInstanciables
             }
             return false;
         }
-        public static bool operator !=(Profesor i, Universidad.EClase clase)
+        public static bool operator !=(Profesor i, Universidad.EClases clase)
         {
             return !(i == clase);
         }

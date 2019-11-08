@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
-    public abstract class Universitario : Persona
+    public abstract class Universitario : Persona 
     {
         private int legajo;
 
