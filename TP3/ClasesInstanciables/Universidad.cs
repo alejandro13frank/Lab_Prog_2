@@ -171,7 +171,7 @@ namespace ClasesInstanciables
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("UNIVERIDAD");
-            foreach (Alumno alumno in this.Alumnos)
+            /*foreach (Alumno alumno in this.Alumnos)
             {
                 stringBuilder.Append(alumno.ToString());
                 stringBuilder.AppendLine("----------------------------------------");
@@ -181,7 +181,7 @@ namespace ClasesInstanciables
             {
                 stringBuilder.Append(profesor.ToString());
                 stringBuilder.AppendLine("----------------------------------------");
-            }
+            }*/
             foreach (Jornada jornada in this.Jornadas)
             {
                 stringBuilder.Append(jornada.ToString());
