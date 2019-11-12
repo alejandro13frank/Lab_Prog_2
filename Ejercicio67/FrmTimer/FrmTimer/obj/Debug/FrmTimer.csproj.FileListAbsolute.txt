@@ -1,0 +1,9 @@
+D:\VisualStudio\FrmTimer\FrmTimer\bin\Debug\FrmTimer.exe.config
+D:\VisualStudio\FrmTimer\FrmTimer\bin\Debug\FrmTimer.exe
+D:\VisualStudio\FrmTimer\FrmTimer\bin\Debug\FrmTimer.pdb
+D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.Form1.resources
+D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.Properties.Resources.resources
+D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csproj.GenerateResource.cache
+D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csproj.CoreCompileInputs.cache
+D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.exe
+D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.pdb
