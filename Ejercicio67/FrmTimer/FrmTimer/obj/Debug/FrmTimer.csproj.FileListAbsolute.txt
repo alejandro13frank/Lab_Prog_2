@@ -7,3 +7,13 @@ D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csproj.GenerateResource.cac
 D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csproj.CoreCompileInputs.cache
 D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.exe
 D:\VisualStudio\FrmTimer\FrmTimer\obj\Debug\FrmTimer.pdb
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\bin\Debug\FrmTimer.exe.config
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\bin\Debug\FrmTimer.exe
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\bin\Debug\FrmTimer.pdb
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.Form1.resources
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.Properties.Resources.resources
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csproj.GenerateResource.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.exe
+D:\Alejandro Frank\Lab_Prog_2\Ejercicio67\FrmTimer\FrmTimer\obj\Debug\FrmTimer.pdb

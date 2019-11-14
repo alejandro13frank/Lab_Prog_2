@@ -45,7 +45,7 @@ namespace FrmTimer
 
         private void btnBoton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hola");
+            this.temporizador.Activo = !this.temporizador.Activo;
         }
     }
 }

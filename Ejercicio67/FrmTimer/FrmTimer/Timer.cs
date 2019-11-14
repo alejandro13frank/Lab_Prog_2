@@ -15,7 +15,6 @@ namespace FrmTimer
         bool activo;
         public Timer()
         {
-            hilo = new Thread(this.Corriendo);
             this.Intervalo = 1000;
         }
         public bool Activo
@@ -29,6 +28,7 @@ namespace FrmTimer
                 if (value)
                 {
                     this.activo = value;
+                    this.hilo = new Thread(this.Corriendo);
                     this.hilo.Start();
                 }
                 else
@@ -53,8 +53,8 @@ namespace FrmTimer
         {
             do
             {
-               System.Threading.Thread.Sleep(this.Intervalo);
-               this.eventoTiempo.Invoke();
+                System.Threading.Thread.Sleep(this.Intervalo);
+                this.eventoTiempo.Invoke();
             } while (true);
         }
 
