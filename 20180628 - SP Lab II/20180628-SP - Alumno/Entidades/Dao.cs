@@ -7,13 +7,13 @@ using System.Data.SqlClient;
 
 namespace Entidades
 {
-    public class Dao
+    public class Dao : IArchivo<Votacion>
     {
-        public void Leer()
+        public Votacion Leer(string estring)
         {
             throw new NotImplementedException();
         }
-        public void Guardar (Votacion votacion)
+        public bool Guardar (string letras, Votacion votacion)
         {
             String connectionStr = "Data Source=.\\SQLEXPRESS;Initial Catalog =votacion-sp-2018; Integrated Security = True";
             SqlConnection conexion;
@@ -25,11 +25,26 @@ namespace Entidades
 
             comando.Connection = conexion;
             String update;
-            update = $"INSERT dbo.Votaciones SET nombreLey = '{votacion.NombreLey}' WHERE id = 1 ";
+            update = $"INSERT INTO dbo.Votaciones (nombreLey,afirmativos,negativos,abstenciones,nombreAlumno)  VALUES ('{votacion.NombreLey}',{votacion.ContadorAfirmativo},{votacion.ContadorNegativo},{votacion.ContadorAbtencion},'alejandro,frank')";
 
             comando.CommandText = update;
-            conexion.Open();
-            comando.ExecuteNonQuery();
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                throw new Exception();
+            }
+            
+
+            finally
+            {
+                conexion.Close();
+               
+            }
+            return true;
         }
     }
 }

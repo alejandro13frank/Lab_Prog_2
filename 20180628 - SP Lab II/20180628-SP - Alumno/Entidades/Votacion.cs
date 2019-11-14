@@ -83,7 +83,7 @@ namespace Entidades
                 this.EventoVotoEfectuado.Invoke(k.Key, this.senadores[k.Key]);
 
                 // Incrementar contadores
-                switch (k.Value)
+                switch (this.senadores[k.Key])
                 {
                     case Votacion.EVoto.Afirmativo:
                         this.contadorAfirmativo++;

@@ -92,7 +92,7 @@ namespace _20180628_SP.v1
                     SerializarXML<Votacion> serializarXML = new SerializarXML<Votacion>();
                     serializarXML.Guardar(path, this.votacion);
                     Dao sql = new Dao();
-                    sql.Guardar(this.votacion);
+                    sql.Guardar("HOLA",this.votacion);
                 }
             }
         }
