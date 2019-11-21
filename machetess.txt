@@ -1,0 +1,215 @@
+------------Base de datos-----------------------
+
+
+String connectionStr = "Data Source=.\\SQLEXPRESS;Initial Catalog =votacion-sp-2018; Integrated Security = True";
+            SqlConnection conexion;
+            conexion = new SqlConnection(connectionStr);
+            SqlCommand comando;
+
+            comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
+
+            comando.Connection = conexion;
+            String update;
+            update = $"INSERT INTO dbo.Votaciones (nombreLey,afirmativos,negativos,abstenciones,nombreAlumno)  VALUES ('{votacion.NombreLey}',{votacion.ContadorAfirmativo},{votacion.ContadorNegativo},{votacion.ContadorAbtencion},'alejandro,frank')";
+
+            comando.CommandText = update;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                throw new Exception();
+            }
+            
+
+            finally
+            {
+                conexion.Close();
+               
+            }
+            return true;
+
+UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;(isnull, is no null)
+DELETE FROM table_name WHERE condition;
+SELECT (DISTINCT, para no repetir datos)column1, column2, ... FROM table_name;
+
+comando.CommandText = "SELECT nombre FROM Personas";
+conexion.Open();
+
+SqlDataReader oDr = comando.ExecuteReader();
+
+while (oDr.Read())
+{
+    string aux = oDr["nombre"].ToString();
+}
+
+-------------------archivos-------------------------
+
+ public interface IArchivo<T>
+    {   
+        /// <summary>
+        /// Interfas para ser implementada en otras clases con el finde Guardar un archivo generico
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
+        bool Guardar(string archivo, T dato);
+        /// <summary>
+        /// Interfas para ser implementada en otras clases con el finde leer un archivo generico
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
+        bool Leer(string archivo, out T dato);
+    }
+
+public class Texto : IArchivo<string>
+    {
+        /// <summary>
+        /// Guarda archivos de texto 
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
+        public bool Guardar(string archivo, string datos)
+        {
+            try
+            {
+                StreamWriter stream = new StreamWriter(archivo,true);
+                stream.Write(datos);
+                stream.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                throw new ArchivosException(e);
+            }
+        }
+        /// <summary>
+        /// Lee archivos de tipo texto 
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
+        public bool Leer(string archivo, out string datos)
+        {
+            try
+            {
+                StreamReader stream = new StreamReader(archivo);
+                datos = stream.ReadToEnd();
+                stream.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                throw new ArchivosException(e);
+            }
+        }
+    }
+-------------SERIALIZACION XML------------------
+    public class Xml<T> : IArchivo<T>
+    {
+        /// <summary>
+        /// Guarda archivos Xml 
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
+        public bool Guardar(string archivo, T dato)
+        {
+            try
+            { 
+                XmlTextWriter writer = new XmlTextWriter(archivo,null);
+                XmlSerializer serializer = new XmlSerializer(typeof(T));
+                serializer.Serialize(writer, dato);
+                writer.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                throw new ArchivosException(e);
+            }
+
+        }
+        /// <summary>
+        /// Lee archivos Xml 
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
+        public bool Leer(string archivo, out T dato)
+        {
+            try
+            {
+                XmlTextReader reader = new XmlTextReader(archivo);
+                XmlSerializer serializar = new XmlSerializer(typeof(T));
+                dato = (T)serializar.Deserialize(reader);
+                reader.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                throw new ArchivosException(e);
+            }
+        }
+    }
+
+-----------SERIALIZACION BINARIA-----------
+
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+//...
+Dato aux = new Dato(); // Objeto a serializar.
+FileStream fs;         //Objeto que escribirá en binario.
+BinaryFormatter ser;   //Objeto que serializará.
+
+//Se indica ubicación del archivo binario y el modo.
+fs = new FileStream(ArchivoBinario, FileMode.Create);
+//Se crea el objeto serializador.
+ser = new BinaryFormatter();
+//Serializa el objeto p en el archivo contenido en fs.
+ser.Serialize(fs, p);
+//Se cierra el objeto fs
+fs.Close();
+
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+//...
+//Objeto que alojará los datos contenidos en el archivo binario.
+Dato aux = new Dato();
+FileStream fs;            //Objeto que leerá en binario.
+BinaryFormatter ser;      //Objeto que Deserializará.
+
+//Se indica ubicación del archivo binario y el modo.
+fs = new FileStream(pathBinario, FileMode.Open);
+//Se crea el objeto deserializador.
+ser = new BinaryFormatter();
+//Deserializa el archivo contenido en fs, lo guarda en aux.
+aux = (Dato)ser.Deserialize(fs);
+//Se cierra el objeto fs.
+fs.Close();
+
+-----------------llamar a eventos del hilo principal--------
+
+
+private void ActualizarHora()
+        {
+            if (this.lblHora.InvokeRequired)
+            {
+                EncargadoTiempo d = new EncargadoTiempo(ActualizarHora);
+                this.Invoke(d);
+            }
+            else
+            {
+                this.lblHora.Text = DateTime.Now.ToString();
+            }
+        }
+
+private void Form1_Load(object sender, EventArgs e)
+        { 
+            this.temporizador.eventoTiempo += ActualizarHora;
+            this.temporizador.Activo = true;
+        }
