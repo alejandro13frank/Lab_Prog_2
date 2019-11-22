@@ -1,0 +1,17 @@
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\20191121-SP.exe.config
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\20191121-SP.exe
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\20191121-SP.pdb
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\Archivos.dll
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\Entidades.dll
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\Extenciones.dll
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\Archivos.pdb
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\Entidades.pdb
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\bin\Debug\Extenciones.pdb
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\20191121-SP.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\_20191121_SP.FrmSistemaSolar.resources
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\_20191121_SP.Properties.Resources.resources
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\20191121-SP.csproj.GenerateResource.cache
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\20191121-SP.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\20191121-SP.csproj.CopyComplete
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\20191121-SP.exe
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\20191121-SP\obj\Debug\20191121-SP.pdb

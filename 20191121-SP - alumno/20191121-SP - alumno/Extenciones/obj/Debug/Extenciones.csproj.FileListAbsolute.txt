@@ -1,0 +1,6 @@
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\Extenciones\bin\Debug\Extenciones.dll
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\Extenciones\bin\Debug\Extenciones.pdb
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\Extenciones\obj\Debug\Extenciones.csprojAssemblyReference.cache
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\Extenciones\obj\Debug\Extenciones.csproj.CoreCompileInputs.cache
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\Extenciones\obj\Debug\Extenciones.dll
+D:\Alejandro Frank\Lab_Prog_2\20191121-SP - alumno\20191121-SP - alumno\Extenciones\obj\Debug\Extenciones.pdb
