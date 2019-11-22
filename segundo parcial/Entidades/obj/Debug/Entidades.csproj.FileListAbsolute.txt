@@ -1,0 +1,6 @@
+D:\Segundo Parcial\20191121-SP - alumno\Entidades\bin\Debug\Entidades.dll
+D:\Segundo Parcial\20191121-SP - alumno\Entidades\bin\Debug\Entidades.pdb
+D:\Segundo Parcial\20191121-SP - alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Segundo Parcial\20191121-SP - alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Segundo Parcial\20191121-SP - alumno\Entidades\obj\Debug\Entidades.dll
+D:\Segundo Parcial\20191121-SP - alumno\Entidades\obj\Debug\Entidades.pdb

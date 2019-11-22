@@ -1,0 +1,6 @@
+D:\Segundo Parcial\20191121-SP - alumno\Archivos\bin\Debug\Archivos.dll
+D:\Segundo Parcial\20191121-SP - alumno\Archivos\bin\Debug\Archivos.pdb
+D:\Segundo Parcial\20191121-SP - alumno\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+D:\Segundo Parcial\20191121-SP - alumno\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+D:\Segundo Parcial\20191121-SP - alumno\Archivos\obj\Debug\Archivos.dll
+D:\Segundo Parcial\20191121-SP - alumno\Archivos\obj\Debug\Archivos.pdb
